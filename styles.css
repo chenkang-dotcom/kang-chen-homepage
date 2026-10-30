@@ -231,6 +231,18 @@ main {
   border-left: 3px solid var(--accent);
 }
 
+.job + .job {
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.job > p {
+  margin: 0 0 0.25rem;
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+}
+
 .job-head h3 {
   margin: 0;
   font-size: 1.15rem;
